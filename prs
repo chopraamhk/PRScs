@@ -1,0 +1,14 @@
+Requirements 
+Scipy and h5py 
+conda create -n PRScs
+conda activate PRScs
+pip install scipy
+pip install h5py
+
+Installation:
+wget https://github.com/getian107/PRScs/archive/refs/tags/v1.1.0.zip
+unzip v1.1.0.zip
+
+Try running ./PRScs.py --help or -h
+
+
