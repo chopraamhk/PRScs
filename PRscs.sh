@@ -3,7 +3,7 @@
 #SBATCH --job-name="PRScs"
 #SBATCH -o PRScs.o%j
 #SBATCH -e PRScs.e%j
-#SBATCH --mail-user=m.chopra1@universityofgalway.ie
+#SBATCH --mail-user=<>
 #SBATCH --mail-type=ALL
 #SBATCH --partition="normal","highmem"
 #SBATCH -a 1-22
