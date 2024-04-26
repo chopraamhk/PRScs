@@ -1,14 +1,38 @@
-Requirements 
+Reason for using below: https://doi.org/10.1016/j.jacc.2023.01.044
+Article: The Genetic Determinants of Aortic Distention
+
+#Requirements:
 Scipy and h5py 
 conda create -n PRScs
 conda activate PRScs
 pip install scipy
 pip install h5py
 
-Installation:
+#Installation:
 wget https://github.com/getian107/PRScs/archive/refs/tags/v1.1.0.zip
 unzip v1.1.0.zip
 
-Try running ./PRScs.py --help or -h
+#Try running 
+./PRScs.py --help or -h
+
+#eur linkage file was downloaded from:
+https://personal.broadinstitute.org/hhuang/public/PRS-CSx/Reference/UKBB/
+
+#I ran the test_data using ldblk_ukbb_eur linkage file.
+
+#code:
+python PRScs.py 
+--ref_dir ref_ukbb_eur/ldblk_ukbb_eur 
+--bim_prefix=test_data/test 
+--sst_file=test_data/sumstats_se.txt 
+--n_gwas=200000 
+--chrom=22 
+--phi=1e-2 
+--out_dir=test_data/test_output
+
+#it worked smoothly
+Note: I have only used chrom=22 above; parallelisation is recommended by the authors.
+#--chrom flag is optional though.
+
 
 
