@@ -30,8 +30,8 @@ python PRScs.py
 --out_dir=test_data/test_output
 
 #it worked smoothly
-Note: I have only used chrom=22 above; parallelisation is recommended by the authors.
-#--chrom flag is optional though.
+Note: I have only used chrom=22 above; the authors recommend parallelisation.
+#--chrom flag is optional if all the chromosomes are running together without array parallelisation.
 
 
 
