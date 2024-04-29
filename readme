@@ -31,7 +31,7 @@ https://personal.broadinstitute.org/hhuang/public/PRS-CSx/Reference/UKBB/
 
 ##code:
 ```
-python PRScs.py --ref_dir=ref_ukbb_eur/ldblk_ukbb_eur --bim_prefix=test_data/test --sst_file=test_data/sumstats_se.txt --n_gwas=200000 --chrom=22 --out_dir=test_data/test_output
+python PRScs.py --ref_dir=ref_ukbb_eur/ldblk_ukbb_eur --bim_prefix=test_data/test --sst_file=test_data/sumstats_se.txt --n_gwas=200000 --chrom=22 --out_dir=test_data/test_output --write_pst=TRUE
 ```
 
 #it worked smoothly
