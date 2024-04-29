@@ -12,8 +12,11 @@ pip install h5py
 
 ##Installation:
 ```
-wget https://github.com/getian107/PRScs/archive/refs/tags/v1.1.0.zip
-unzip v1.1.0.zip
+wget https://github.com/getian107/PRScs/archive/refs/tags/v1.1.0.zip 
+unzip v1.1.0.zip ##THIS MIGHT NOT HAVE --write_pst option available . Better to clone the git repository 
+
+git clone https://github.com/getian107/PRScs.git
+
 ```
 
 ##Try running 
