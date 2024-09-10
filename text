@@ -20,3 +20,19 @@ What is the working of PRScs?
 - how closely the snp matches with reference panel
 5. Adds the effects of all weighted effect sizes to tell the risk score.
 
+
+Polygenic scores can be found using Traditional and Bayesian approaches. The
+traditional method uses a large reference panel to estimate the average effect
+size of each genetic variant on a trait/disease. The effect size will contribute to
+the knowledge of snps contributing to the risk of the trait. Based on the effect
+sizes, a weighted sum is calculated for each snp that provides the polygenic score
+for disease/trait. To test the traditional approach, PRSice was used to calculate
+PGS for distensibility. However, on the contrary, the bayesian approach is based
+on the concept of prior probabilities which implies that it would consider the
+prior knowledge related to the effect sizes of snps before analysing specific data.
+For example, based on Bayesian approach, PRScs uses a linkage disequilibrium
+reference panel generated using 375,120 individuals from UKBB. Bayesian PRS
+are more flexible as they incorporate existing biological knowledge; however,
+choosing the right prior biological panels is important and provides more im-
+proved accuracy in terms of risk estimates. Following the Bayesian approach,
+PRScs was used to find the polygenic scores for distensibility.
